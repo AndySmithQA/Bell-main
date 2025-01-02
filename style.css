@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.myButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    color: white;
+    transform: translateX(-50%);
+    pointer-events: auto;
+    background-color: #1b4965 !important;
+    border-color: navy !important;
+}
+
+
+.bg-dark, .navbar-dark{
+    background-color: navy;
+}
+.dance-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.active{
+    background-color: #62b6cb;
+    color: #332d2d;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding-top: 20px 0;
+    padding-bottom: 2px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-section {
+    width: 20%;
+    margin: 10px;
+}
+.footer-section h3 {
+    color: #fff;
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+}
+.footer-section p, .footer-section ul, .footer-section a {
+    color: #ddd;
+    font-size: 14px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    color: #fff;
+}
+.social-media a {
+    color: #bbb;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.social-media a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    font-size: 13px;
+}
