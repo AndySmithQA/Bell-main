@@ -24,7 +24,9 @@
     border-color: navy !important;
 }
 
-
+.navbar {
+    height: 85;
+}
 .bg-dark, .navbar-dark{
     background-color: navy;
 }
